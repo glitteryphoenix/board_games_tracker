@@ -10,19 +10,20 @@ import Home from "./pages/home";
 import Search from "./pages/search";
 import SignIn from "./pages/signin";
 
-// export default function App() {
-//   return (
-//     <BrowserRouter>
-//       <Routes>
-//         <Route path="/" element={<Layout />}>
-//           <Route index element={<Home />} />
-//           <Route path="Search" element={<Search />} />
-//           <Route path="Sign In" element={<SignIn />} />
-//         </Route>
-//       </Routes>
-//     </BrowserRouter>
-//   );
-// }
+//does this need to be in an idex.jsx file instead?
+export default function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="Search" element={<Search />} />
+          <Route path="SignIn" element={<SignIn />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  );
+}
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<App />);
