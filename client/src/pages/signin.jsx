@@ -1,6 +1,6 @@
 import { Outlet, Link } from "react-router-dom";
 
-const Home = () => {
+const SignIn = () => {
   return (
     <>
       <nav>
@@ -16,10 +16,10 @@ const Home = () => {
           </li>
         </ul>
       </nav>
-
+<p>This is sign in</p>
       <Outlet />
     </>
   );
 };
 
-export default Layout;
+export default SignIn;

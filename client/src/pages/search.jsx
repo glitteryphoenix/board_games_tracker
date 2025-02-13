@@ -1,6 +1,6 @@
 import { Outlet, Link } from "react-router-dom";
 
-const Home = () => {
+const Search = () => {
   return (
     <>
       <nav>
@@ -16,10 +16,10 @@ const Home = () => {
           </li>
         </ul>
       </nav>
-
+<p>This is search</p>
       <Outlet />
     </>
   );
 };
 
-export default Layout;
+export default Search;

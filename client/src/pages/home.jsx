@@ -16,10 +16,10 @@ const Home = () => {
           </li>
         </ul>
       </nav>
-
+<p>This is home</p>
       <Outlet />
     </>
   );
 };
 
-export default Layout;
+export default Home;

@@ -10,16 +10,15 @@ import Home from "./pages/home";
 import Search from "./pages/search";
 import SignIn from "./pages/signin";
 
-//does this need to be in an idex.jsx file instead?
 export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Layout />}>
+        
           <Route index element={<Home />} />
-          <Route path="Search" element={<Search />} />
-          <Route path="SignIn" element={<SignIn />} />
-        </Route>
+          <Route path="search" element={<Search />} />
+          <Route path="signin" element={<SignIn />} />
+      
       </Routes>
     </BrowserRouter>
   );
@@ -27,34 +26,5 @@ export default function App() {
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<App />);
-
-function App() {
-  const [count, setCount] = useState(0);
-
-  return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Board Games Tracker</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  );
-}
 
 //export default App
