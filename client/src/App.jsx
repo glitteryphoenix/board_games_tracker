@@ -3,28 +3,32 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 
-//Router
-import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/home";
-import Search from "./pages/search";
-import SignIn from "./pages/signin";
+//I have no idea which file to put what code in, so I am just brain dumping it all here
+
+
+
+//Add route links into a permanent nav bar?
+
+//Navigation bar basics
+{/* <nav>
+  <ul>
+    <li>Home</li>
+    <li>Search</li>
+    <li>Sign In</li>
+  </ul>
+</nav> */}
 
 export default function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        
-          <Route index element={<Home />} />
-          <Route path="search" element={<Search />} />
-          <Route path="signin" element={<SignIn />} />
-      
-      </Routes>
-    </BrowserRouter>
-  );
-}
+    <div></div>
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<App />);
+  );
+};
+
+
+
+
+
+
 
 //export default App
