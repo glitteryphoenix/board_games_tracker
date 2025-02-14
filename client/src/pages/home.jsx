@@ -43,12 +43,14 @@ const Home = () => {
 
       <div>
         <div>
+        <div>
           <h2>Board Games</h2>
         </div>
         <div>
           {gamesList.map(game => ( 
             <GameDetails key={game.id} game={game}/>
           ))};
+        </div>
         </div>
       </div>
 
