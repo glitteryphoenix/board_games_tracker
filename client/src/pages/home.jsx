@@ -2,14 +2,17 @@ import { useState } from "react";
 import { Outlet, Link } from "react-router-dom";
 import {gamesArray} from "../frontend-data.jsx";
 
+//set  up nav bar
+//set  up game so it can be called in GameDetails
 //need to add link to game.id on the button
+//sort image url 
+//add styling
 
 
 
 const GameDetails = () => {
   return (
     <div>
-      <p> check </p>
       {/* <h2>{game.title}</h2>
       <img src={game.image} />
       <p>{game.published}</p>
@@ -31,6 +34,7 @@ const Home = () => {
   return (
     <>
       <nav>
+      <h1>Board Games Tracker</h1>
         <ul>
           <li>
             <Link to="/">Home</Link>
@@ -43,14 +47,16 @@ const Home = () => {
           </li>
         </ul>
       </nav>
-      <p>This is home</p>
+     
+     
 
       <div>
         <div>
-          <h1>Board Games</h1>
+          <h2>Board Games</h2>
         </div>
         <div>
           {gamesList.map(game => (
+            // <GameDetails/>
             <div>
               <img src={game.image} />
               <h4>{game.title}</h4>

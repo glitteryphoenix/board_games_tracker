@@ -3,8 +3,6 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 
-//I have no idea which file to put what code in, so I am just brain dumping it all here
-
 
 
 //Add route links into a permanent nav bar?
