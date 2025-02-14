@@ -8,7 +8,7 @@ export const gamesArray = [
         players_required: 5,
         time_required: 70,
         published: 2019,
-        image: 'https://cf.geekdo-images.com/DFPZYcIi_hz8GHG9YOz8Lg__original/img/nv8F2A11ZRUYLVrFF_A51SkncSY=/0x0/filters:format(webp)/pic4726310.jpg'
+        image: 'https://files.ekmcdn.com/boardgameguru/images/wingspan-2nd-edition-63289-p.jpg',
     },
     {
         id: 2,
