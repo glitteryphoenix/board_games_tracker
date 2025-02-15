@@ -1,26 +1,28 @@
 // TODO: delete routes
 // TODO: import app.jsx + delete unused imports
 
+//IMPORTS
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App.jsx";
 
-//Router
+//ROUTER
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Search from "./pages/Search.jsx";
 import SignIn from "./pages/SignIn.jsx";
+import MoreDetails from "./pages/components/MoreDetails.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <BrowserRouter>
-      <App />
-      {/* <Routes>
-        <Route index element={<Home />} />
+      <Routes>
+        <Route path="/" element={<App />} />
+        <Route path="details/:id" element={<MoreDetails />} />
         <Route path="search" element={<Search />} />
         <Route path="signin" element={<SignIn />} />
-      </Routes> */}
+      </Routes>
     </BrowserRouter>
   </StrictMode>
 );

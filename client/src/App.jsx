@@ -1,36 +1,48 @@
-// TODO: show reviews / details by grabbing game id
-// TODO: find video by tutor on react router
-
+//IMPORTS
 import { useState } from "react";
 import "./App.css";
 import { gamesArray } from "./frontend-data";
+import { Link } from "react-router-dom";
 
-const GameDetails = ({ game }) => {
+//INDIVIDUAL CARD FORMAT
+export const GameDetails = ({ game }) => {
   return (
-    <div>
-      <h2>{game.title}</h2>
-      {/* <img src={game.image} /> */}
-      <p>({game.published})</p>
-      <p>{game.company}</p>
-      <p>{game.game_type}</p>
-      <p>{game.players_required} players</p>
-      <p>{game.time_required} minutes approx</p>
-      {/* <p>{game.description}</p> */}
-      <button> Details </button>
+    <div className="col-md-3">
+      {" "}
+      <div className="card">
+        <img src={game.image} className="card-img-top" alt={game.title} />
+        <div className="card-body">
+          <h5 className="card-title">{game.title}</h5>
+          <p className="card-text">
+            <em>({game.published})</em>
+          </p>
+          <p className="card-text">{game.game_type}</p>
+          <p className="card-text">{game.players_required} players</p>
+          <p className="card-text">{game.time_required} minutes approx</p>
+
+          <Link className="btn btn-primary" to={`/details/${game.id}`}>
+            Details
+          </Link>
+        </div>
+      </div>
     </div>
   );
 };
 
+//SHOWING ALL GAMES
 export default function App() {
   const [gamesList, setGames] = useState(gamesArray);
-
   return (
     <>
-      {/* <NavigationBar /> */}
-      {gamesList.map((game) => (
-        <GameDetails key={game.id} game={game} />
-      ))}
-      ;
+      <h2>Board Games</h2>
+      <div className="container my-5">
+        <div className="row g-4">
+          {" "}
+          {gamesList.map((game) => (
+            <GameDetails key={game.id} game={game} />
+          ))}
+        </div>
+      </div>
     </>
   );
 }
