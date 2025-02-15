@@ -10,7 +10,7 @@ import App from "./App.jsx";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Search from "./pages/Search.jsx";
-import SignIn from "./pages/signin";
+import SignIn from "./pages/SignIn.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
