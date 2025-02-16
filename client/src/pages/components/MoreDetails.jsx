@@ -2,13 +2,12 @@ import { Link, useParams } from "react-router-dom";
 import { gamesArray } from "../../frontend-data";
 import { useState } from "react";
 
-
 //SUBMIT NEW REVIEW FUNCTION
 const handleSubmit = (e, setNewReviewArray, reviewsArray) => {
   e.preventDefault();
   const reviewTextArea = document.getElementById("newReview");
   const newReview = reviewTextArea.value;
-reviewTextArea.value = "",
+  reviewTextArea.value = "";
 
   //ADD NEW REVIEWS TO ARRAY
   setNewReviewArray([...reviewsArray, newReview]);
@@ -24,7 +23,7 @@ export const MoreDetails = () => {
   }
 
   //REVIEWS FROM GAME DATA
-  const [reviewsArray, setNewReviewArray] = useState(game.review || []); //IS THIS ACTUALLY AN ARRAY THOUGH
+  const [reviewsArray, setNewReviewArray] = useState(game.review || []);
 
   return (
     <div className="d-flex justify-content-center align-items-center min-vh-100">

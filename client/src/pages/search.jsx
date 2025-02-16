@@ -1,23 +1,11 @@
 import { Outlet, Link } from "react-router-dom";
+import { NavigationBar } from "./components/Navigation";
 
 const Search = () => {
   return (
     <>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/search">Search</Link>
-          </li>
-          <li>
-            <Link to="/signin">Sign In</Link>
-          </li>
-        </ul>
-      </nav>
-<p>This is search</p>
-      <Outlet />
+      <NavigationBar />
+      <h2 className="title">Search</h2>
     </>
   );
 };

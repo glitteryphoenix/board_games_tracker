@@ -1,6 +1,7 @@
 .appBody {
   background-color: white;
   align-content: center;
+  font-family: "Lexend", sans-serif;
 }
 
 .card-img-top {
@@ -12,5 +13,41 @@
   width: 100%;
 }
 
-.navBar {
+.title {
+  margin-left: 8%;
 }
+
+.navbar-brand {
+
+}
+
+.custom-navbar {
+  background-color: #0066ff; /* Set background color */
+}
+
+.navbar-title {
+  color: #ffffff; /* Set text color for the <h1> to bright white */
+  font-weight: bold; /* Make the <h1> bold */
+}
+
+.custom-navbar .btn {
+  color: #ffffff; /* Set button text to bright white */
+  font-weight: bold; /* Make buttons' text bold */
+  padding: 12px 24px; /* Increase padding to make buttons bigger */
+  font-size: 16px; /* Set a larger font size for the buttons */
+}
+
+.custom-navbar .btn:hover {
+  background-color: #005bb5; /* Optional: darker blue on hover */
+}
+
+.custom-navbar .navbar-nav .nav-link {
+  color: #ffffff; /* Ensure link color in navbar is white */
+}
+
+
+.navBar {
+  background-color: #0066ff;
+  font-family: "Lexend", sans-serif;
+}
+

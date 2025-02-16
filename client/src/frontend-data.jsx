@@ -184,8 +184,7 @@ export const gamesArray = [
     players_required: 4,
     time_required: 60,
     published: 1938,
-    image:
-      "https://cf.geekdo-images.com/7Ojo1fuDLfL0AL4_zQ9Gbw__original/img/6n8F3axjC7S7dMz7hxuVKETnS9M=/0x0/filters:format(webp)/pic3579215.jpg",
+    image: "https://m.media-amazon.com/images/I/71y8FLsJYRL._AC_SX679_.jpg",
     review: [
       "The ultimate word challenge! Scrabble is an addictive game that pushes your vocabulary to the limit.",
     ],
@@ -200,8 +199,7 @@ export const gamesArray = [
     players_required: 10,
     time_required: 45,
     published: 2020,
-    image:
-      "https://cf.geekdo-images.com/udt5gD-9gtAgNNwm6m7PpA__original/img/9PA6hNfu7gR8ZkjmhFYhl2gk3YM=/0x0/filters:format(webp)/pic5083284.jpg",
+    image: "https://m.media-amazon.com/images/I/71ACgPO9k3L.jpg",
     review: [
       "A unique game that challenges both your color perception and your communication skills. Great for parties!",
     ],
@@ -217,7 +215,7 @@ export const gamesArray = [
     time_required: 30,
     published: 1997,
     image:
-      "https://cf.geekdo-images.com/8eWbZYjr9M4eFwz1h3Onvw__original/img/PITG9F0ykiwV9O2Vsn5hAY7sd2c=/0x0/filters:format(webp)/pic1366890.jpg",
+      "https://cdn.zatu.com/wp-content/uploads/2020/04/18064910/Quoridor-Mini-UkIreland-Only-500x500.jpg",
     review: [
       "A simple but very strategic game! Quoridor tests your ability to think ahead and block opponents while staying focused on your goal.",
     ],
@@ -232,8 +230,7 @@ export const gamesArray = [
     players_required: 4,
     time_required: 60,
     published: 2008,
-    image:
-      "https://cf.geekdo-images.com/3U2n_FekbpHNR4WjvjYw0Q__original/img/8Txl-F6YsG2wN0T7pSPrbz1frKw=/0x0/filters:format(webp)/pic1275735.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/en/3/36/Pandemic_game.jpg",
     review: [
       "A fantastic cooperative game that requires real teamwork and planning. Pandemic keeps you on the edge of your seat as you race against time!",
     ],
@@ -249,7 +246,7 @@ export const gamesArray = [
     time_required: 60,
     published: 1992,
     image:
-      "https://cf.geekdo-images.com/Yz_51lreSyzO0DtS3p92Yw__original/img/gUB7TS7QsY4e8Onj3wa4T0O0RLg=/0x0/filters:format(webp)/pic3356710.jpg",
+      "https://rulesofplay.co.uk/cdn/shop/products/700_5ff84c6019ff96.67876973_articulate_large_a214a5a5-a098-47f8-9cb7-8dcf26a6233a_600x600.jpg?v=1703001028",
     review: [
       "Great fun for large groups! Fast-paced and full of laughter, Articulate is a must-have for any party.",
     ],
@@ -265,7 +262,7 @@ export const gamesArray = [
     time_required: 45,
     published: 2019,
     image:
-      "https://cf.geekdo-images.com/T1OkB_7Vcl57yqJbFh-1lg__original/img/TzpEKzM-hysp6kBxXzzVbwbeKXI=/0x0/filters:format(webp)/pic4961337.jpg",
+      "https://travellingman.com/cdn/shop/products/pic4552862_grande.png?v=1585750128",
     review: [
       "A fun and unique twist on the social deduction genre. Wavelength requires teamwork and clever thinking, and it leads to some memorable moments.",
     ],
@@ -281,7 +278,7 @@ export const gamesArray = [
     time_required: 45,
     published: 2020,
     image:
-      "https://cf.geekdo-images.com/Xb74r8lG6jQlk7bm-gbNnA__original/img/ghPFl0FYuA5CSm-Y7Yr5X4d8u3o=/0x0/filters:format(webp)/pic5793352.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFoJgFw9viQhMedwK2qnnCFZQSMVWdmHAL1Q&s",
     review: [
       "Calico is a beautifully designed puzzle game with plenty of depth. It’s relaxing yet challenging, and the artwork is absolutely gorgeous.",
     ],
@@ -297,7 +294,7 @@ export const gamesArray = [
     time_required: 20,
     published: 2016,
     image:
-      "https://cf.geekdo-images.com/q0tZxzxaACnfpWwpzv7mMw__original/img/Dr9qF31bzhpRUP8ZZVm0Fihm5XU=/0x0/filters:format(webp)/pic3975329.jpg",
+      "https://cf.geekdo-images.com/q_JGK291hrhnhiRB0667oA__itemrep/img/w6x_ahGLQVe2u6trDx0kO91OprM=/fit-in/246x300/filters:strip_icc()/pic3979766.png",
     review: [
       "A brilliant game of unspoken communication and trust. The Mind requires excellent teamwork and is surprisingly intense for such a simple concept.",
     ],

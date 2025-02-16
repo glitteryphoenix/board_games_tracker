@@ -1,23 +1,11 @@
 import { Outlet, Link } from "react-router-dom";
+import { NavigationBar } from "./components/Navigation";
 
 const SignIn = () => {
   return (
     <>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/search">Search</Link>
-          </li>
-          <li>
-            <Link to="/signin">Sign In</Link>
-          </li>
-        </ul>
-      </nav>
-<p>This is sign in</p>
-      <Outlet />
+      <NavigationBar />
+      <h2 className="title">Sign in</h2>
     </>
   );
 };
