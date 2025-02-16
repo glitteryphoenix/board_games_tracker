@@ -37,8 +37,9 @@ export default function App() {
     <div class="appBody">
       <>
         <NavigationBar />
-        <br></br>
-        <h2>All Games</h2>
+    <br></br>
+          <h2><span></span>All Games</h2>
+
         <div className="container my-5">
           <div className="row g-4">
             {" "}

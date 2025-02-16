@@ -11,8 +11,9 @@ export const gamesArray = [
     published: 2019,
     image:
       "https://files.ekmcdn.com/boardgameguru/images/wingspan-2nd-edition-63289-p.jpg",
-    review:
+    review: [
       "A beautifully designed game that combines strategy with nature. The artwork is stunning, and the gameplay is engaging. Perfect for fans of engine-building games!",
+    ],
   },
   {
     id: 2,
@@ -24,10 +25,10 @@ export const gamesArray = [
     players_required: 4,
     time_required: 90,
     published: 2018,
-    image:
-      "https://cf.geekdo-images.com/t6d0I4JhJcBQ3gq1F-VSfw__original/img/TkzOclg_zV3XXL-oetKmLNAmz5I=/0x0/filters:format(webp)/pic4043480.jpg",
-    review:
+    image: "https://www.gameslore.com/acatalog/LED01018500.jpg",
+    review: [
       "Root offers a deep, ever-changing strategy with great replay value. The asymmetrical factions are an incredible twist, keeping every game unique!",
+    ],
   },
   {
     id: 3,
@@ -40,9 +41,10 @@ export const gamesArray = [
     time_required: 120,
     published: 1995,
     image:
-      "https://cf.geekdo-images.com/8Xb_8BdxedI0mybns5YZaw__original/img/MrdnDQGbxyIgj-Jne-rlxTyC-QE=/0x0/filters:format(webp)/pic1577559.jpg",
-    review:
+      "https://cf.geekdo-images.com/PyUol9QxBnZQCJqZI6bmSA__imagepage/img/tDdC3V3b26mJyPSyQI-_e2_E3Ik=/fit-in/900x600/filters:no_upscale():strip_icc()/pic8632666.png",
+    review: [
       "A classic for a reason. Catan is a perfect blend of strategy and negotiation. The tension from trading resources is unmatched!",
+    ],
   },
   {
     id: 4,
@@ -55,9 +57,10 @@ export const gamesArray = [
     time_required: 60,
     published: 2015,
     image:
-      "https://cf.geekdo-images.com/BZjXYbxjm9zyYBOg9taFvQ__original/img/RF_qzIt8vf2q8Sry9EY8-34OTpc=/0x0/filters:format(webp)/pic2437169.jpg",
-    review:
+      "https://m.media-amazon.com/images/I/51Wf-PRHd0L._AC_UF894,1000_QL80_.jpg",
+    review: [
       "Great for large groups! Codenames has a brilliant balance of simplicity and challenge. The perfect icebreaker for any party.",
+    ],
   },
   {
     id: 5,
@@ -70,9 +73,10 @@ export const gamesArray = [
     time_required: 120,
     published: 1997,
     image:
-      "https://cf.geekdo-images.com/xjK2feN8MPlOEK3-aWlwlg__original/img/aSyQccRmZGvG6Z9d-hGRz-LG1l8=/0x0/filters:format(webp)/pic3596357.jpg",
-    review:
+      "https://cf.geekdo-images.com/P4AH1k9JZjk3kKRfp5WUeg__itemrep/img/9o5pqxq9dtGPSLVk6aINvB2p4X8=/fit-in/246x300/filters:strip_icc()/pic6684000.jpg",
+    review: [
       "An upgraded version of the classic that feels both familiar and new. The deluxe pieces are a nice touch, making the experience feel more luxurious!",
+    ],
   },
   {
     id: 6,
@@ -85,9 +89,10 @@ export const gamesArray = [
     time_required: 60,
     published: 2022,
     image:
-      "https://cf.geekdo-images.com/qZK8o1_Kf4H6gk2AnruUPg__original/img/kV0UR_tjpcpt-K_cZySnl0DYoH8=/0x0/filters:format(webp)/pic7025020.jpg",
-    review:
+      "https://cf.geekdo-images.com/EvGtnsBDcfnKiqSiXHothQ__itemrep/img/jX6vD-lydthyBuFRXuuWOnkayh0=/fit-in/246x300/filters:strip_icc()/pic6605448.jpg",
+    review: [
       "An adorable and strategic game with great artwork. The worker placement mechanics are well-executed, and the dragons add a unique charm!",
+    ],
   },
   {
     id: 7,
@@ -100,9 +105,10 @@ export const gamesArray = [
     time_required: 60,
     published: 2011,
     image:
-      "https://cf.geekdo-images.com/7tH2A1m_9gffXa3mAhI1Mw__original/img/VfT-B8cR1gJ-8ezqxZdAqEedFjk=/0x0/filters:format(webp)/pic913106.jpg",
-    review:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLNB13MYhbdawfWIbG7wK2FNihYVzKoM4caw&s",
+    review: [
       "Not for the faint of heart! Cards Against Humanity is hilarious, irreverent, and great for a night of laughs with friends who have a strong sense of humor.",
+    ],
   },
   {
     id: 8,
@@ -115,8 +121,10 @@ export const gamesArray = [
     time_required: 30,
     published: 2006,
     image:
-      "https://cf.geekdo-images.com/e0EgoBv0DCiv9Gb-V2kdGg__original/img/hg62GzBcn7jZ4m00jlQLN9F28bI=/0x0/filters:format(webp)/pic478410.jpg",
-    review: `A fast-paced, fun game that's perfect for word lovers! Simple, but challenging enough to keep everyone engaged.`,
+      "https://m.media-amazon.com/images/I/61FyaeXbSrL._AC_UF894,1000_QL80_.jpg",
+    review: [
+      `A fast-paced, fun game that's perfect for word lovers! Simple, but challenging enough to keep everyone engaged.`,
+    ],
   },
   {
     id: 9,
@@ -128,10 +136,10 @@ export const gamesArray = [
     players_required: 6,
     time_required: 30,
     published: 2021,
-    image:
-      "https://cf.geekdo-images.com/3n0vqrzvkw3BHK2TK88eyw__original/img/hkz23M9wKvNCvGp0pVNOz7Z76Ho=/0x0/filters:format(webp)/pic7026331.jpg",
-    review:
+    image: "https://media.4rgos.it/s/Argos/9474462_R_SET?$Main768$&w=620&h=620",
+    review: [
       "A hilarious and easy game for any social gathering. Perfect for a laugh-filled night with friends or family!",
+    ],
   },
   {
     id: 10,
@@ -144,9 +152,10 @@ export const gamesArray = [
     time_required: 60,
     published: 2005,
     image:
-      "https://cf.geekdo-images.com/-1wVp6bpSLoF5gZ-x99Mkw__original/img/BzHhKNkqUBeesg48TjveVpi6S9Y=/0x0/filters:format(webp)/pic1872522.jpg",
-    review:
+      "https://upload.wikimedia.org/wikipedia/en/thumb/9/92/Ticket_to_Ride_Board_Game_Box_EN.jpg/310px-Ticket_to_Ride_Board_Game_Box_EN.jpg",
+    review: [
       "A fun, strategic twist on the original Ticket to Ride. The European version offers some cool new mechanics that keep the game fresh and exciting.",
+    ],
   },
   {
     id: 11,
@@ -159,128 +168,138 @@ export const gamesArray = [
     time_required: 60,
     published: 1949,
     image:
-      "https://cf.geekdo-images.com/ahPQE-DiczkDtbKTV9OZ4g__original/img/BYsAx5uXKujfJ5lZa4-JO6aA5iA=/0x0/filters:format(webp)/pic2019846.jpg",
-    review:
+      "https://www.thetoyshop.com/medias/1200Wx1200H-567390-Primary?context=bWFzdGVyfGltYWdlc3w4NDUyNzB8aW1hZ2UvanBlZ3xhRGxqTDJnNE15OHhNakE1T0RFM01qYzRNRFUzTkM4eE1qQXdWM2d4TWpBd1NGODFOamN6T1RCZlVISnBiV0Z5ZVF8NzM5NTRhZjdlMzdhNmM3ZTVmNmFiMjhlOTlhY2JhMzMwNzEzMDZlYzFlNzc1ZGM1YWQxNjdhMGUzZDgyM2E5Yw",
+    review: [
       "An absolute classic. Perfect for fans of mysteries and deduction games. Every round feels like a real-life detective case!",
+    ],
   },
+  //WHY DOES IT STOP WORKING HERE??
   {
     id: 12,
-    name: "Scrabble",
+    title: "Scrabble",
     game_type: "Word Game",
     description:
       "Scrabble is a classic word game where players use letter tiles to form words on a game board. Points are scored based on the letter values and the placement of words on premium squares.",
-    publisher: "Hasbro",
-    players: 4,
-    playtime: 60,
-    year: 1938,
-    image_url:
+    company: "Hasbro",
+    players_required: 4,
+    time_required: 60,
+    published: 1938,
+    image:
       "https://cf.geekdo-images.com/7Ojo1fuDLfL0AL4_zQ9Gbw__original/img/6n8F3axjC7S7dMz7hxuVKETnS9M=/0x0/filters:format(webp)/pic3579215.jpg",
-    review:
+    review: [
       "The ultimate word challenge! Scrabble is an addictive game that pushes your vocabulary to the limit.",
+    ],
   },
   {
     id: 13,
-    name: "Hues and Cues",
+    title: "Hues and Cues",
     game_type: "Party Game, Word Game, Color Recognition",
     description:
       "In Hues and Cues, players give and guess clues based on colors to try to identify a particular hue on the board. It’s a fun and challenging game that tests your color perception and your ability to communicate it effectively to others.",
-    publisher: "The OP",
-    players: 10,
-    playtime: 45,
-    year: 2020,
-    image_url:
+    company: "The OP",
+    players_required: 10,
+    time_required: 45,
+    published: 2020,
+    image:
       "https://cf.geekdo-images.com/udt5gD-9gtAgNNwm6m7PpA__original/img/9PA6hNfu7gR8ZkjmhFYhl2gk3YM=/0x0/filters:format(webp)/pic5083284.jpg",
-    review:
+    review: [
       "A unique game that challenges both your color perception and your communication skills. Great for parties!",
+    ],
   },
   {
     id: 14,
-    name: "Quoridor",
+    title: "Quoridor",
     game_type: "Abstract Strategy, Grid Movement",
     description:
       "Quoridor is an abstract strategy game where players race to move their pawn to the opposite side of the board. Players can block each other's paths using walls, creating a tense and strategic game of positioning.",
-    publisher: "Gigamic",
-    players: 4,
-    playtime: 30,
-    year: 1997,
-    image_url:
+    company: "Gigamic",
+    players_required: 4,
+    time_required: 30,
+    published: 1997,
+    image:
       "https://cf.geekdo-images.com/8eWbZYjr9M4eFwz1h3Onvw__original/img/PITG9F0ykiwV9O2Vsn5hAY7sd2c=/0x0/filters:format(webp)/pic1366890.jpg",
-    review:
+    review: [
       "A simple but very strategic game! Quoridor tests your ability to think ahead and block opponents while staying focused on your goal.",
+    ],
   },
   {
     id: 15,
-    name: "Pandemic",
+    title: "Pandemic",
     game_type: "Cooperative, Strategy, Disease Simulation",
     description:
       "Pandemic is a cooperative strategy game where players work together to stop the spread of diseases around the world. Players take on different roles and must strategize to find cures and prevent outbreaks before time runs out.",
-    publisher: "Z-Man Games",
-    players: 4,
-    playtime: 60,
-    year: 2008,
-    image_url:
+    company: "Z-Man Games",
+    players_required: 4,
+    time_required: 60,
+    published: 2008,
+    image:
       "https://cf.geekdo-images.com/3U2n_FekbpHNR4WjvjYw0Q__original/img/8Txl-F6YsG2wN0T7pSPrbz1frKw=/0x0/filters:format(webp)/pic1275735.jpg",
-    review:
+    review: [
       "A fantastic cooperative game that requires real teamwork and planning. Pandemic keeps you on the edge of your seat as you race against time!",
+    ],
   },
   {
     id: 16,
-    name: "Articulate",
+    title: "Articulate",
     game_type: "Party Game, Word Game, Communication",
     description:
       "Articulate is a fast-paced word guessing game where players describe words without saying them directly. The aim is to get your team to guess as many words as possible within a set time limit.",
-    publisher: "Drumond Park",
-    players: 20,
-    playtime: 60,
-    year: 1992,
-    image_url:
+    company: "Drumond Park",
+    players_required: 20,
+    time_required: 60,
+    published: 1992,
+    image:
       "https://cf.geekdo-images.com/Yz_51lreSyzO0DtS3p92Yw__original/img/gUB7TS7QsY4e8Onj3wa4T0O0RLg=/0x0/filters:format(webp)/pic3356710.jpg",
-    review:
+    review: [
       "Great fun for large groups! Fast-paced and full of laughter, Articulate is a must-have for any party.",
+    ],
   },
   {
     id: 17,
-    name: "Wavelength",
+    title: "Wavelength",
     game_type: "Party Game, Social Deduction, Communication",
     description:
       "Wavelength is a social guessing game where players try to get their teammates to guess a position on a spectrum between two extremes. It’s about giving clues that will be interpreted accurately by your team while understanding their thought process.",
-    publisher: "Palm Court",
-    players: 12,
-    playtime: 45,
-    year: 2019,
-    image_url:
+    company: "Palm Court",
+    players_required: 12,
+    time_required: 45,
+    published: 2019,
+    image:
       "https://cf.geekdo-images.com/T1OkB_7Vcl57yqJbFh-1lg__original/img/TzpEKzM-hysp6kBxXzzVbwbeKXI=/0x0/filters:format(webp)/pic4961337.jpg",
-    review:
+    review: [
       "A fun and unique twist on the social deduction genre. Wavelength requires teamwork and clever thinking, and it leads to some memorable moments.",
+    ],
   },
   {
     id: 18,
-    name: "Calico",
+    title: "Calico",
     game_type: "Strategy, Tile-Laying, Puzzle",
     description:
       "Calico is a tile-laying game where players create beautiful quilts by placing colorful tiles in a strategic manner. The goal is to create the most aesthetically pleasing quilt while fulfilling specific pattern requirements.",
-    publisher: "Flatout Games",
-    players: 4,
-    playtime: 45,
-    year: 2020,
-    image_url:
+    company: "Flatout Games",
+    players_required: 4,
+    time_required: 45,
+    published: 2020,
+    image:
       "https://cf.geekdo-images.com/Xb74r8lG6jQlk7bm-gbNnA__original/img/ghPFl0FYuA5CSm-Y7Yr5X4d8u3o=/0x0/filters:format(webp)/pic5793352.jpg",
-    review:
+    review: [
       "Calico is a beautifully designed puzzle game with plenty of depth. It’s relaxing yet challenging, and the artwork is absolutely gorgeous.",
+    ],
   },
   {
     id: 19,
-    name: "The Mind",
+    title: "The Mind",
     game_type: "Cooperative, Card Game, Abstract Strategy",
     description:
       "The Mind is a cooperative card game where players must play cards in ascending order without communicating. It’s a test of intuition and teamwork, where the goal is to complete all levels.",
-    publisher: "Pandasaurus Games",
-    players: 4,
-    playtime: 20,
-    year: 2016,
-    image_url:
+    company: "Pandasaurus Games",
+    players_required: 4,
+    time_required: 20,
+    published: 2016,
+    image:
       "https://cf.geekdo-images.com/q0tZxzxaACnfpWwpzv7mMw__original/img/Dr9qF31bzhpRUP8ZZVm0Fihm5XU=/0x0/filters:format(webp)/pic3975329.jpg",
-    review:
+    review: [
       "A brilliant game of unspoken communication and trust. The Mind requires excellent teamwork and is surprisingly intense for such a simple concept.",
+    ],
   },
 ];

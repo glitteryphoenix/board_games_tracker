@@ -1,7 +1,19 @@
 import { Link, useParams } from "react-router-dom";
 import { gamesArray } from "../../frontend-data";
+import { useState } from "react";
 
-// MORE DETAILS PAGE
+
+//SUBMIT NEW REVIEW FUNCTION
+const handleSubmit = (e, setNewReviewArray, reviewsArray) => {
+  e.preventDefault();
+  const reviewTextArea = document.getElementById("newReview");
+  const newReview = reviewTextArea.value;
+reviewTextArea.value = "",
+
+  //ADD NEW REVIEWS TO ARRAY
+  setNewReviewArray([...reviewsArray, newReview]);
+};
+
 export const MoreDetails = () => {
   const params = useParams();
   const gameId = params.id;
@@ -10,6 +22,9 @@ export const MoreDetails = () => {
   if (!game) {
     return <h2>Game not found!</h2>;
   }
+
+  //REVIEWS FROM GAME DATA
+  const [reviewsArray, setNewReviewArray] = useState(game.review || []); //IS THIS ACTUALLY AN ARRAY THOUGH
 
   return (
     <div className="d-flex justify-content-center align-items-center min-vh-100">
@@ -55,13 +70,23 @@ export const MoreDetails = () => {
               <p>{game.time_required} minutes approx</p>
             </div>
           </div>
+          {/* REVIEW SECTION */}
           <h3 className="mt-4">Reviews</h3>
-          <p>{game.review}</p>
-          <form>
+          <div>
+            {/* DISPLAY REVIEWS */}
+            {reviewsArray.length > 0 ? (
+              reviewsArray.map((review, index) => <p key={index}>{review}</p>)
+            ) : (
+              <p>No reviews yet.</p>
+            )}
+          </div>
+          {/* SUBMIT NEW REVIEW */}
+          <form
+            onSubmit={(e) => handleSubmit(e, setNewReviewArray, reviewsArray)}>
             <div className="mb-3">
               <textarea
-                id="review"
-                name="review"
+                id="newReview"
+                name="newReview"
                 rows="4"
                 className="form-control"
                 placeholder="Enter your review here..."></textarea>

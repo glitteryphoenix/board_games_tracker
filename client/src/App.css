@@ -1,9 +1,16 @@
 .appBody {
-background-color: white;
-align-content: center;
+  background-color: white;
+  align-content: center;
+}
 
-};
+.card-img-top {
+  width: 300px;
+  height: 300px;
+}
+
+#root {
+  width: 100%;
+}
 
 .navBar {
-
 }
