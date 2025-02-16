@@ -3,6 +3,7 @@ import { useState } from "react";
 import "./App.css";
 import { gamesArray } from "./frontend-data";
 import { Link } from "react-router-dom";
+import { NavigationBar } from "./pages/components/Navigation";
 
 //INDIVIDUAL CARD FORMAT
 export const GameDetails = ({ game }) => {
@@ -33,16 +34,20 @@ export const GameDetails = ({ game }) => {
 export default function App() {
   const [gamesList, setGames] = useState(gamesArray);
   return (
-    <>
-      <h2>Board Games</h2>
-      <div className="container my-5">
-        <div className="row g-4">
-          {" "}
-          {gamesList.map((game) => (
-            <GameDetails key={game.id} game={game} />
-          ))}
+    <div class="appBody">
+      <>
+        <NavigationBar />
+        <br></br>
+        <h2>All Games</h2>
+        <div className="container my-5">
+          <div className="row g-4">
+            {" "}
+            {gamesList.map((game) => (
+              <GameDetails key={game.id} game={game} />
+            ))}
+          </div>
         </div>
-      </div>
-    </>
+      </>
+    </div>
   );
 }

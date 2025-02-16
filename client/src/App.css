@@ -1,7 +1,9 @@
-.body {
-  font-family: 'Lexend', sans-serif;
-}
+.appBody {
+background-color: white;
+align-content: center;
 
-.navbar {
-  font-family: 'Lexend', sans-serif;
+};
+
+.navBar {
+
 }
