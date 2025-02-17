@@ -1,5 +1,5 @@
 .appBody {
-  background-color: white;
+  background-color: #cccccc;
   align-content: center;
   font-family: "Lexend", sans-serif;
 }
@@ -14,7 +14,7 @@
 }
 
 .title {
-  margin-left: 8%;
+  margin-left: 16%;
 }
 
 .navbar-brand {
@@ -22,7 +22,7 @@
 }
 
 .custom-navbar {
-  background-color: #0066ff; /* Set background color */
+  background-color: #2d6fd2; /* Set background color */
 }
 
 .navbar-title {

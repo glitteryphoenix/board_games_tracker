@@ -26,22 +26,37 @@ export const MoreDetails = () => {
   const [reviewsArray, setNewReviewArray] = useState(game.review || []);
 
   return (
-    <div className="d-flex justify-content-center align-items-center min-vh-100">
+    <div className="d-flex justify-content-center align-items-center min-vh-100"
+    style={{ backgroundColor: "#cccccc" }}
+    >
       <div
-        className="card"
+        className="card shadow-lg"
         style={{
           width: "100%",
           maxWidth: "800px",
           marginLeft: "auto",
           marginRight: "auto",
         }}>
-        <div className="card-header position-relative">
+        <div className="card-header position-relative p-0">
           <Link
             className="btn btn-primary position-absolute top-0 start-0 m-2"
             to="/">
             Back
           </Link>
-          <img src={game.image} alt={game.title} className="card-img-top" />
+          <div className="d-flex justify-content-center">
+            <img
+              src={game.image}
+              alt={game.title}
+              className="game-image"
+              style={{
+                width: "100%",
+                maxHeight: "800px",
+                objectFit: "cover",
+                borderTopLeftRadius: "8px",
+                borderTopRightRadius: "8px",
+              }}
+            />
+          </div>
         </div>
         <div className="card-body">
           <h2 className="text-center mb-4">{game.title}</h2>
@@ -50,7 +65,7 @@ export const MoreDetails = () => {
               <p>
                 <b>
                   <u>Company:</u>
-                </b>
+                </b>{" "}
                 {game.company}
               </p>
               <p>
@@ -59,7 +74,7 @@ export const MoreDetails = () => {
               <p>
                 <b>
                   <u>Type:</u>
-                </b>
+                </b>{" "}
                 {game.game_type}
               </p>
               <p>{game.description}</p>

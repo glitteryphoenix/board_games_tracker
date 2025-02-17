@@ -8,7 +8,7 @@ export const NavigationBar = () => {
       <nav className="navbar navbar-expand-lg custom-navbar">
         <div className="container">
           <Link to="/" className="navbar-brand">
-            <h1 className="navbar-title">Board Games Tracker</h1> {/* Apply custom class */}
+            <h1 className="navbar-title">&#9733; Board Games Tracker</h1> {/* Apply custom class */}
           </Link>
           <div className="d-flex">
             <Link to="/" className="btn btn-primary mx-2 custom-btn">
