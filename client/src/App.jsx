@@ -1,7 +1,7 @@
 //IMPORTS
 import { useState } from "react";
 import "./App.css";
-import { gamesArray } from "./frontend-data";
+import { gamesArray } from "./Frontend-data";
 import { Link } from "react-router-dom";
 import { NavigationBar } from "./pages/components/Navigation";
 

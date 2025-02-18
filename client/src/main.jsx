@@ -11,7 +11,7 @@ import App from "./App.jsx";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Search from "./pages/Search.jsx";
-import SignIn from "./pages/SignIn.jsx";
+import SignIn from "./pages/Signin.jsx";
 import MoreDetails from "./pages/components/MoreDetails.jsx";
 
 createRoot(document.getElementById("root")).render(

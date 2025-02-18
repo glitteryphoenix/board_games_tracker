@@ -4,7 +4,7 @@
   font-family: "Lexend", sans-serif;
 }
 
-.card-img-top {
+.card-img-top { /* IMAGES ON ALL GAMES PAGE */
   width: 300px;
   height: 300px;
 }
@@ -13,40 +13,36 @@
   width: 100%;
 }
 
-.title {
+.title { /* ALL GAMES */
   margin-left: 16%;
 }
 
-.navbar-brand {
-
-}
-
 .custom-navbar {
-  background-color: #2d6fd2; /* Set background color */
+  background-color: #2d6fd2; /* BACKGROUND COLOUR */
 }
 
-.navbar-title {
-  color: #ffffff; /* Set text color for the <h1> to bright white */
-  font-weight: bold; /* Make the <h1> bold */
+.navbar-title { /* BOARD GAMES TRACKER */
+  color: #ffffff; 
+  font-weight: bold; 
 }
 
 .custom-navbar .btn {
-  color: #ffffff; /* Set button text to bright white */
-  font-weight: bold; /* Make buttons' text bold */
-  padding: 12px 24px; /* Increase padding to make buttons bigger */
-  font-size: 16px; /* Set a larger font size for the buttons */
+  color: #ffffff; 
+  font-weight: bold; 
+  padding: 12px 24px; 
+  font-size: 16px; 
 }
 
 .custom-navbar .btn:hover {
-  background-color: #005bb5; /* Optional: darker blue on hover */
+  background-color: #005bb5; 
 }
 
 .custom-navbar .navbar-nav .nav-link {
-  color: #ffffff; /* Ensure link color in navbar is white */
+  color: #ffffff; 
 }
 
 
-.navBar {
+.navBar { /* BACKGROUND COLOUR */
   background-color: #0066ff;
   font-family: "Lexend", sans-serif;
 }

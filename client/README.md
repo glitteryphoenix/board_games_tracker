@@ -33,3 +33,17 @@
 <p align="left">
 <a href="https://linkedin.com/in/matteasykes" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="matteasykes" height="30" width="40" /></a>
 </p>
+
+<h1 align="center">Board Games Tracker MVP</h1>
+<p> Welcome to my MVP! I hope you can find everything you need, but if you have any questions about my code then feel free to contact me on Slack. </p>
+
+<h3 align="center">Setup & Run</h3>
+- Take this repository and `git clone` it.
+- Navigate into the board_games_tracker folder using `cd`.
+- Run `npm install`.
+- Navigate into the client folder using `cd`.
+- Run `npm install`.
+- Do `npm run dev` to open the localhost in your browser. 
+
+<h3 align="center">Navigation</h3>
+- You can find the components in board_games_tracker > client > src > pages > components. This should show all the relevant files that you will need. 
