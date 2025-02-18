@@ -35,15 +35,17 @@
 </p>
 
 <h1 align="center">Board Games Tracker MVP</h1>
-<p> Welcome to my MVP! I hope you can find everything you need, but if you have any questions about my code then feel free to contact me on Slack. </p>
+<p align="center"> Welcome to my MVP! I hope you can find everything you need, but if you have any issues then feel free to contact me on Slack. :blush: </p>
 
 <h3 align="center">Setup & Run</h3>
-- Take this repository and `git clone` it.
-- Navigate into the board_games_tracker folder using `cd`.
-- Run `npm install`.
-- Navigate into the client folder using `cd`.
-- Run `npm install`.
-- Do `npm run dev` to open the localhost in your browser. 
+
+- Take this repository and `git clone` it.  
+- Navigate into the `board_games_tracker` folder using `cd`.  
+- Run `npm install`.  
+- Navigate into the `client` folder using `cd`.  
+- Run `npm install`.  
+- Do `npm run dev` to open the localhost in your browser.  
 
 <h3 align="center">Navigation</h3>
-- You can find the components in board_games_tracker > client > src > pages > components. This should show all the relevant files that you will need. 
+
+- You can find the components in `board_games_tracker > client > src > pages > components`. This should show all the relevant files that you will need.  
