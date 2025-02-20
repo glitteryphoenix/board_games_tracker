@@ -18,5 +18,10 @@
   },
   "devDependencies": {
     "react-router-dom": "^7.1.5"
-  }
+  },
+  "description": "<h1 align=\"center\">Hi, I am Mattea 👋</h1>\r <h3 align=\"center\">a full-stack development bootcamp student from the UK</h3>",
+  "main": "app.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

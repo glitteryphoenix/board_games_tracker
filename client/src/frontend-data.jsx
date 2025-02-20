@@ -173,7 +173,6 @@ export const gamesArray = [
       "An absolute classic. Perfect for fans of mysteries and deduction games. Every round feels like a real-life detective case!",
     ],
   },
-  //WHY DOES IT STOP WORKING HERE??
   {
     id: 12,
     title: "Scrabble",

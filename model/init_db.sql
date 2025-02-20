@@ -1,3 +1,7 @@
+/* THIS DATABASE NEEDS UPDATING WITH THE IMAGE URLS FROM THE ARRAY + A REVIEW ROW ADDING */
+
+
+
 -- MySQL dump 10.13  Distrib 9.2.0, for Win64 (x86_64)
 --
 -- Host: localhost    Database: board_games_tracker
@@ -32,6 +36,7 @@ CREATE TABLE `board_games` (
   `time_required` int NOT NULL,
   `published` year NOT NULL,
   `image` varchar(255) NOT NULL,
+  /*`reviews` varchar(255)*/
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
